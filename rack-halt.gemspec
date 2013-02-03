@@ -28,7 +28,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = [
     "test/halt_test.rb",
     "test/rule_set_test.rb",
-    "text/rule_test.rb",
+    "test/rule_test.rb",
     "test/test_helper.rb"
   ]
   gem.require_paths = ["lib"]
