@@ -28,7 +28,7 @@ module Rack::Halt
     end
 
     def content_for(env)
-      env["REQUEST_METHOD"] == "HEAD" ? [] : content
+      env["REQUEST_METHOD"] == "HEAD" ? [] : [content]
     end
 
     def content
